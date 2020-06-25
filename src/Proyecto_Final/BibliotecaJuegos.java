@@ -270,9 +270,6 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton20 = new javax.swing.JButton();
         jLabel40 = new javax.swing.JLabel();
         jDialog18 = new javax.swing.JDialog();
-        jTextArea20 = new javax.swing.JTextArea();
-        jLabel106 = new javax.swing.JLabel();
-        jButton69 = new javax.swing.JButton();
         jDialog19 = new javax.swing.JDialog();
         jTextArea21 = new javax.swing.JTextArea();
         jLabel107 = new javax.swing.JLabel();
@@ -1321,59 +1318,15 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
 
         jDialog17.getContentPane().add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jTextArea20.setBackground(new java.awt.Color(0, 0, 0));
-        jTextArea20.setColumns(20);
-        jTextArea20.setForeground(new java.awt.Color(255, 255, 255));
-        jTextArea20.setRows(5);
-        jTextArea20.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nSO: Windows 7\nProcesador: AMD Phenom II X4 960T ; Intel i3550\nGráficos: AMD HD 6850 ; NVIDIA GeForce GTS 450\nDirectX: Versión 11\nAlmacenamiento: 20 GB de espacio disponible\nNotas adicionales: Direct3D feature Level 11.1");
-        jTextArea20.setDisabledTextColor(new java.awt.Color(255, 255, 255));
-        jTextArea20.setEnabled(false);
-
-        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
-
-        jButton69.setBackground(new java.awt.Color(119, 150, 5));
-        jButton69.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
-        jButton69.setText("Regresar a Biblioteca");
-
         javax.swing.GroupLayout jDialog18Layout = new javax.swing.GroupLayout(jDialog18.getContentPane());
         jDialog18.getContentPane().setLayout(jDialog18Layout);
         jDialog18Layout.setHorizontalGroup(
             jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-            .addGroup(jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jDialog18Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jTextArea20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-            .addGroup(jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jDialog18Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel106)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-            .addGroup(jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jDialog18Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jButton69)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGap(0, 611, Short.MAX_VALUE)
         );
         jDialog18Layout.setVerticalGroup(
             jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-            .addGroup(jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jDialog18Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jTextArea20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-            .addGroup(jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jDialog18Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel106)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-            .addGroup(jDialog18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jDialog18Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jButton69)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGap(0, 339, Short.MAX_VALUE)
         );
 
         jTextArea21.setBackground(new java.awt.Color(0, 0, 0));
@@ -1989,7 +1942,6 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JButton jButton66;
     private javax.swing.JButton jButton67;
     private javax.swing.JButton jButton68;
-    private javax.swing.JButton jButton69;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton70;
     private javax.swing.JButton jButton71;
@@ -2031,7 +1983,6 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel102;
     private javax.swing.JLabel jLabel103;
     private javax.swing.JLabel jLabel104;
-    private javax.swing.JLabel jLabel106;
     private javax.swing.JLabel jLabel107;
     private javax.swing.JLabel jLabel108;
     private javax.swing.JLabel jLabel109;
@@ -2188,7 +2139,6 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JTextArea jTextArea16;
     private javax.swing.JTextArea jTextArea17;
     private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextArea jTextArea20;
     private javax.swing.JTextArea jTextArea21;
     private javax.swing.JTextArea jTextArea22;
     private javax.swing.JTextArea jTextArea23;
